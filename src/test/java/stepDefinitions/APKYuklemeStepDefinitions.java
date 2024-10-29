@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 public class APKYuklemeStepDefinitions {
 
-    AndroidDriver<AndroidElement>androidDriver= Driver.getAndroidDriver();
+    AndroidDriver<AndroidElement>androidDriver;
 
     @Given("Kullanici {string} uygulamasini cihaza yukler")
     public void kullanici_uygulamasini_cihaza_yukler(String apkDosyaYolu) throws MalformedURLException {
